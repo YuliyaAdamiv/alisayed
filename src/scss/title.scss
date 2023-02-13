@@ -1,0 +1,33 @@
+.menu {
+  margin: 60px 0 75px 0;
+}
+.title_content {
+  display: flex;
+  flex-direction: row;
+}
+.title_description {
+  padding-left: 50px;
+  background-color: rgb(234, 234, 234);
+}
+.title-item,
+.title-banner,
+.project {
+  font-size: 45.712px;
+  color: rgb(38, 47, 50);
+  line-height: 1.444;
+  font-weight: bold;
+}
+.title-banner {
+  font-weight: 300;
+}
+.project {
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.title-text {
+  font-size: 20.57px;
+  color: rgb(38, 47, 50);
+  line-height: 1.556;
+  font-weight: 400;
+  margin-top: 40px;
+}

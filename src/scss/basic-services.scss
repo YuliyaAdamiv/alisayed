@@ -1,0 +1,67 @@
+.service {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 80px;
+  height: 100%;
+}
+.service:first-child {
+  padding-top: 70px;
+}
+.service:nth-child(3) {
+  padding-bottom: 70px;
+}
+.services {
+  background-image: url(../img/bg-3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.service_title {
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+  line-height: 1.467;
+  font-weight: 300;
+}
+.service_title span {
+  font-weight: bold;
+}
+.service_description {
+  font-size: 15.57px;
+  color: rgba(255, 255, 255, 0.878);
+  line-height: 1.798;
+  width: 100%;
+}
+.f {
+  max-width: 550px;
+}
+.black {
+  color: rgb(38, 47, 50);
+}
+main {
+  display: flex;
+}
+.best {
+  background-image: url(../img/bg-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dummy {
+  background-image: url(../img/bg-4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn {
+  margin: 49px 0 70px 0;
+  font-size: 16.57px;
+  color: rgb(38, 47, 50);
+  line-height: 1.931;
+  text-align: center;
+  border: 1px solid rgb(38, 47, 50);
+  padding: 15px 40px;
+  border-radius: 11px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.white {
+  color: rgba(255, 255, 255, 0.878);
+  border: 1px solid rgba(255, 255, 255, 0.878);
+}
