@@ -3,7 +3,6 @@
   display: block;
   margin: 0 auto;
   padding-top: 80px;
-  height: 100%;
 }
 
 .service:first-child {
@@ -11,7 +10,7 @@
 }
 
 .service:nth-child(3) {
-  padding-bottom: 70px;
+  padding-bottom: 98px;
 }
 
 .services {
@@ -38,15 +37,11 @@
   width: 100%;
 }
 
-.f {
-  max-width: 550px;
-}
-
 .black {
   color: rgb(38, 47, 50);
 }
 
-main {
+.main {
   display: flex;
 }
 
@@ -78,7 +73,15 @@ main {
   color: rgba(255, 255, 255, 0.878);
   border: 1px solid rgba(255, 255, 255, 0.878);
 }
-footer {
+
+@media (max-width: 1135px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.footer {
   display: flex;
   flex-direction: row;
 }
@@ -109,6 +112,7 @@ footer {
   background-size: cover;
   max-width: 100vw;
   width: 65%;
+  opacity: 0.8;
   padding: 70px 0 70px 60px;
 }
 
@@ -175,6 +179,49 @@ textarea {
   text-align: left;
   margin-bottom: 100px;
 }
+
+@media (max-width: 1135px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hello {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  input {
+    width: 45%;
+  }
+
+  textarea {
+    width: 90%;
+  }
+
+  .footer-info,
+  .hello {
+    padding: 20px 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  input {
+    width: 95%;
+    margin-top: 15px;
+  }
+
+  textarea {
+    width: 95%;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -228,4 +275,53 @@ body {
   line-height: 1.556;
   font-weight: 400;
   margin-top: 40px;
+  max-width: 426px;
+}
+
+.title_img {
+  width: 100vw;
+  max-width: 908px;
+}
+
+@media (max-width: 1300px) {
+  .title_content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .title-text {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .title_img {
+    max-width: 100vw;
+  }
+
+  .text-lorem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-lorem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .title-text {
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .title_description {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }

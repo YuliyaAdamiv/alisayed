@@ -3,13 +3,12 @@
   display: block;
   margin: 0 auto;
   padding-top: 80px;
-  height: 100%;
 }
 .service:first-child {
   padding-top: 70px;
 }
 .service:nth-child(3) {
-  padding-bottom: 70px;
+  padding-bottom: 98px;
 }
 .services {
   background-image: url(../img/bg-3.png);
@@ -31,13 +30,10 @@
   line-height: 1.798;
   width: 100%;
 }
-.f {
-  max-width: 550px;
-}
 .black {
   color: rgb(38, 47, 50);
 }
-main {
+.main {
   display: flex;
 }
 .best {
@@ -64,4 +60,11 @@ main {
 .white {
   color: rgba(255, 255, 255, 0.878);
   border: 1px solid rgba(255, 255, 255, 0.878);
+}
+@media (max-width: 1135px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
 }
